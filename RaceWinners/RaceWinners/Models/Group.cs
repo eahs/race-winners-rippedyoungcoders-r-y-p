@@ -13,8 +13,8 @@ namespace RaceWinners.Models
         public string Name
         {
             get { return Name;}
-            
-            set {Name = }
+
+            set { Name = ; }
 
         }
 
@@ -23,6 +23,12 @@ namespace RaceWinners.Models
         /// (not the overall race).  So if index 0 contains a 4, then the first runner in this
         /// group placed 4th overall.  
         /// </summary>
-        public List<int> Ranks { get; set; }
+        public List<int> Ranks
+        {
+            get { return Ranks; }
+
+            set { Ranks = ; } //i think the median we calculate is supposed to go here
+
+        }
     }
 }
