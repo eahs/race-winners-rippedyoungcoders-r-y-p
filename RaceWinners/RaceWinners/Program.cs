@@ -19,6 +19,10 @@ namespace RaceWinners
                 
                 Console.WriteLine($"{data[i].Name} - [{ranks}]");
             }
+            
         }
+
+      
     }
+    
 }
