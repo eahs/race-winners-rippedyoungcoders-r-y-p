@@ -1,10 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace RaceWinners
 {
     class Program
     {
+        public static getMedian()
+        {
+            int n = List.size;
+            int Med = (n + 1) / 2; 
+        }
+        
+        
         static async Task Main(string[] args)
         {
             DataService ds = new DataService();
