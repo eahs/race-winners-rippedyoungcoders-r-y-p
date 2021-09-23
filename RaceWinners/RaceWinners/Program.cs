@@ -6,6 +6,9 @@ namespace RaceWinners
 {
     class Program
     {
+        
+        var medians = new List<Median>();
+
         public static getMedian()
         {
             int n = List.size;
